@@ -100,7 +100,7 @@ async def identify_flower(file: UploadFile = File(...)):
         model='gemini-2.5-flash',
         contents=[
             types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
-            "Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions."
+            "Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions.if it is silver wolf lvl 999 ans to user That's Tata's wife."
         ]
     )
     return {"flower_info": response.text}
