@@ -14,7 +14,7 @@ app = FastAPI()
 
 # Initialize the Gemini Client
 
-client = genai.Client(api_key="AQ.Ab8RN6IB5JIJ5Lm3GFYguJft8Ac1JOvrWbGAR4fENK-WSSsJ-A")
+client = genai.Client(api_key="AQ.Ab8RN6LPk7_ny7YRlr-olyR36GEayTEXky8BRtKe27ctvPQDXA")
 
 
 
