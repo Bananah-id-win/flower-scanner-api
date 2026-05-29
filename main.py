@@ -97,7 +97,7 @@ async def serve_ui():
 async def identify_flower(file: UploadFile = File(...)):
     image_bytes = await file.read()
     response = client.models.generate_content(
-        model='gemini-3.1-flash-lite',
+        model='gemini-3.5-flash',
         contents=[
             types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
             "Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions.if it is silver wolf lvl 999 ans to user That's Tata's wife."
