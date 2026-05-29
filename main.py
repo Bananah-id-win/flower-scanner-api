@@ -202,7 +202,7 @@ async def identify_flower(file: UploadFile = File(...)):
 
             types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
 
-            "Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions.if it is silver wolf lvl 999 ans to user That's Tata's wife."
+            "Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions.if it is silver wolf lvl 999 ans to user That's Tata's wife.if it is itachi and 3 M1s + Uptilt > Shuriken Assault > 4 M1s + Kickback > Demonic Illusion > Crow Illusion [Activation] > 3 M1s + Uptilt + > Phoenix Flower > 4 M1s > Crow Illusion [Clone Explosion].if it is sparxie and That's Pai wife.if it is Goku ans That's Prem Husbando."
 
         ]
 
