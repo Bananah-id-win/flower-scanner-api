@@ -100,25 +100,18 @@ async def identify_flower(file: UploadFile = File(...)):
         model='gemini-3.5-flash',
         contents=[
             types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
-            "Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions.if it is silver wolf lvl 999 ans to user That's Tata's wife.if it is itachi ans to user "Combo 1:
-
+            """Identify this flower. Provide its Common Name, Scientific Name, and a neat bullet-pointed list of fun facts or care instructions.
+            if it is silver wolf lvl 999 ans to user That's Tata's wife.
+            if it is itachi ans to user:
+Combo 1:
 3 M1s + Uptilt > Shuriken Assault > 4 M1s + Kickback > Demonic Illusion > Crow Illusion [Activation] > 3 M1s + Uptilt + > Phoenix Flower > 4 M1s > Crow Illusion [Clone Explosion]
 
 Combo 2:
-
-
-
 3 M1s + Uptilt > Amaterasu > Downslam > Demonic Illusion > 3 M1s + Uptilt > Fireball Jutsu > 4 M1s > Kickback
 
-Awakening
-
-Combo 2:
-
-
-
-3 M1s + Uptilt + Susanoo [Summon] + Downslam + Susanoo [Double Tap Variant] + 4 M1s + Amaterasu + 5 M1s
-
-
+Awakening Combo 2:
+3 M1s + Uptilt + Susanoo [Summon] + Downslam + Susanoo [Double Tap Variant] + 4 M1s + Amaterasu + 5 M1s"""
         ]
     )
     return {"flower_info": response.text}
+    
