@@ -6,7 +6,7 @@ from google.genai import types
 app = FastAPI()
 
 # 1. Paste your NEW API key directly inside the quotes below!
-NEW_API_KEY = "AIzaSyYourNewKeyFromGoogleAIStudioHere"
+NEW_API_KEY = "AQ.Ab8RN6LKhkpnaN-NV_l8AVlbrA2enAh9tFXVvzJHbvwarvT1tA"
 
 # 2. This setup checks Render first; if empty, it forces your key directly
 api_key = os.getenv("GEMINI_API_KEY", NEW_API_KEY)
