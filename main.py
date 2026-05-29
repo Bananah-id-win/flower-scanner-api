@@ -6,7 +6,7 @@ from google.genai import types
 app = FastAPI()
 
 # Initialize the Gemini Client
-client = genai.Client(api_key="AQ.Ab8RN6IB5JIJ5Lm3GFYguJft8Ac1JOvrWbGAR4fENK-WSSsJ-A")
+client = genai.Client(api_key="AQ.Ab8RN6KJUAl7EhawHvm3X5iqy5JltLypa92l15Uvtdr1OjreCQ")
 
 @app.get("/", response_class=HTMLResponse)
 async def serve_ui():
