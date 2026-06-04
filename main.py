@@ -30,7 +30,7 @@ app = FastAPI()
 
 
 
-client = genai.Client(api_key="AQ.Ab8RN6LPk7_ny7YRlr-olyR36GEayTEXky8BRtKe27ctvPQDXA")
+client = genai.Client(api_key="AQ.Ab8RN6L17lcILDVDxPwDv8yh3ndMwxAsnPlK7xvpNf4p5EBW7w")
 
 
 
